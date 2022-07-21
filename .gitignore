@@ -1,7 +1,6 @@
 # local files
 .DS_Store
 node_modules
-dist/*
 public
 browserstack.json
 
