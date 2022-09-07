@@ -1,0 +1,25 @@
+[
+  {
+    "type": "STANDARD",
+    "value": [{
+      "total": 50000,
+      "reduction": 15
+    },
+    {
+      "total": 10000,
+      "reduction": 10
+    },
+    {
+      "total": 7000,
+      "reduction": 7
+    },
+    {
+      "total": 5000,
+      "reduction": 5
+    },
+    {
+      "total": 1000,
+      "reduction": 3
+    }]
+  }
+]

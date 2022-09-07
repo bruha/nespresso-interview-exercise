@@ -1,0 +1,21 @@
+[{
+  "country": "Spain",
+  "code": "ES",
+  "tax": 19
+},{
+  "country": "France",
+  "code": "FR",
+  "tax": 20
+},{
+  "country": "Germany",
+  "code": "DE",
+  "tax": 20
+},{
+  "country": "United Kingdom",
+  "code": "UK",
+  "tax": 21
+},{
+  "country": "Italy",
+  "code": "IT",
+  "tax": 25
+}]
