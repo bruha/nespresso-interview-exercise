@@ -4,8 +4,8 @@
     "description": "",
     "type": "module",
     "scripts": {
-        "test": "jest",
-        "test:coverage": "jest --coverage",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
         "mock": "json-mock-api  --cors --port 3000 --directory .",
         "build": "node ./scripts/esbuild.build.js",
         "serve": "node ./scripts/esbuild.serve.js",
@@ -14,9 +14,6 @@
         "format": "prettier 'src/**/*.js' --write"
     },
     "author": "",
-    "jest": {
-        "preset": "ts-jest/presets/default-esm"
-    },
     "eslintConfig": {
         "root": true,
         "env": {
